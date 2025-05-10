@@ -55,12 +55,12 @@ $ cd sdk-typescript
 # With yarn
 $ yarn link
 $ cd ../my-package
-$ yarn link vern-sdk
+$ yarn link vern
 
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global vern-sdk
+$ pnpm link -—global vern
 ```
 
 ## Running tests
