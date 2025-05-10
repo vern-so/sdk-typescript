@@ -298,13 +298,13 @@ describe('instantiate client', () => {
     test('empty env variable', () => {
       process.env['VERN_BASE_URL'] = ''; // empty
       const client = new Vern({ apiKey: 'My API Key' });
-      expect(client.baseURL).toEqual('https://app.getvern.com/api/v1');
+      expect(client.baseURL).toEqual('https://vern.so/api/v1');
     });
 
     test('blank env variable', () => {
       process.env['VERN_BASE_URL'] = '  '; // blank
       const client = new Vern({ apiKey: 'My API Key' });
-      expect(client.baseURL).toEqual('https://app.getvern.com/api/v1');
+      expect(client.baseURL).toEqual('https://vern.so/api/v1');
     });
   });
 
