@@ -1,8 +1,8 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { VernSDK } from 'vern-sdk';
+import { Vern } from 'vern';
 
-const { stringifyQuery } = VernSDK.prototype as any;
+const { stringifyQuery } = Vern.prototype as any;
 
 describe(stringifyQuery, () => {
   for (const [input, expected] of [

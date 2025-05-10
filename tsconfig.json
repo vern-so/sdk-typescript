@@ -9,8 +9,8 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "vern-sdk/*": ["src/*"],
-      "vern-sdk": ["src/index.ts"]
+      "vern/*": ["src/*"],
+      "vern": ["src/index.ts"]
     },
     "noEmit": true,
 

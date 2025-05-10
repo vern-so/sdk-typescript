@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'vern-sdk/internal/uploads';
-import { toFile } from 'vern-sdk/core/uploads';
+import { multipartFormRequestOptions, createForm } from 'vern/internal/uploads';
+import { toFile } from 'vern/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
