@@ -1,11 +1,11 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import type { VernSDK } from '../client';
+import type { Vern } from '../client';
 
 export class APIResource {
-  protected _client: VernSDK;
+  protected _client: Vern;
 
-  constructor(client: VernSDK) {
+  constructor(client: Vern) {
     this._client = client;
   }
 }

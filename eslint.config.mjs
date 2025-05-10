@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^vern-sdk(/.*)?',
+              regex: '^vern(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],

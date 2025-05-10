@@ -1,4 +1,4 @@
-import { VernSDKError } from '../../core/error';
+import { VernError } from '../../core/error';
 
 /**
  * Percent-encode everything that isn't safe to have in a path without encoding safe chars.
@@ -51,7 +51,7 @@ export const createPathTagFunction = (pathEncoder = encodeURIPath) =>
         return acc + spaces + arrows;
       }, '');
 
-      throw new VernSDKError(`Path parameters result in path with invalid segments:\n${path}\n${underline}`);
+      throw new VernError(`Path parameters result in path with invalid segments:\n${path}\n${underline}`);
     }
 
     return path;

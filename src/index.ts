@@ -1,12 +1,12 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-export { VernSDK as default } from './client';
+export { Vern as default } from './client';
 
 export { type Uploadable, toFile } from './core/uploads';
 export { APIPromise } from './core/api-promise';
-export { VernSDK, type ClientOptions } from './client';
+export { Vern, type ClientOptions } from './client';
 export {
-  VernSDKError,
+  VernError,
   APIError,
   APIConnectionError,
   APIConnectionTimeoutError,
