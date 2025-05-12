@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0 (2025-05-10)
+
+Full Changelog: [v2.0.0...v2.1.0](https://github.com/vern-so/sdk-typescript/compare/v2.0.0...v2.1.0)
+
+### Features
+
+* **api:** update via SDK Studio ([594cbe4](https://github.com/vern-so/sdk-typescript/commit/594cbe46ec4a4c490c76dfc11324da3b41a42501))
+
 ## 2.0.0 (2025-05-10)
 
 Full Changelog: [v0.0.1-alpha.0...v2.0.0](https://github.com/vern-so/sdk-typescript/compare/v0.0.1-alpha.0...v2.0.0)
