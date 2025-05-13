@@ -1,6 +1,6 @@
 {
   "name": "vern",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "The official TypeScript library for the Vern API",
   "author": "Vern <>",
   "types": "dist/index.d.ts",
@@ -68,8 +68,5 @@
       "import": "./dist/*.mjs",
       "require": "./dist/*.js"
     }
-  },
-  "engines": {
-    "node": ">= 20"
   }
 }

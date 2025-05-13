@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.1 (2025-05-13)
+
+Full Changelog: [v2.1.0...v2.1.1](https://github.com/vern-so/sdk-typescript/compare/v2.1.0...v2.1.1)
+
+### Chores
+
+* **package:** remove engines ([11a4d79](https://github.com/vern-so/sdk-typescript/commit/11a4d79fd277460b802833936613d35fc1caeb64))
+
 ## 2.1.0 (2025-05-10)
 
 Full Changelog: [v2.0.0...v2.1.0](https://github.com/vern-so/sdk-typescript/compare/v2.0.0...v2.1.0)
