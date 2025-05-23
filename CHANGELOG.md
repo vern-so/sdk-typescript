@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.2 (2025-05-23)
+
+Full Changelog: [v2.1.1...v2.1.2](https://github.com/vern-so/sdk-typescript/compare/v2.1.1...v2.1.2)
+
+### Chores
+
+* **docs:** grammar improvements ([ed1f995](https://github.com/vern-so/sdk-typescript/commit/ed1f99578f5e7e94dc3997364c569c6a45571c9a))
+
 ## 2.1.1 (2025-05-13)
 
 Full Changelog: [v2.1.0...v2.1.1](https://github.com/vern-so/sdk-typescript/compare/v2.1.0...v2.1.1)
