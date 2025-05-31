@@ -25,6 +25,7 @@ describe('resource runs', () => {
     const response = await client.runs.create({
       taskId: 'task_123456',
       inputs: { prompt: 'bar', text: 'bar' },
+      profileId: 'profileId',
       url: 'https://example.com',
     });
   });
