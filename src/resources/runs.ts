@@ -104,6 +104,11 @@ export interface RunCreateParams {
   inputs?: Record<string, unknown>;
 
   /**
+   * Optional user-specified UID for a profile linked via magic link
+   */
+  profileId?: string;
+
+  /**
    * An optional URL to be processed by the task
    */
   url?: string;
