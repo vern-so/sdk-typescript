@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.2.1 (2025-06-14)
+
+Full Changelog: [v2.2.0...v2.2.1](https://github.com/vern-so/sdk-typescript/compare/v2.2.0...v2.2.1)
+
+### Bug Fixes
+
+* publish script — handle NPM errors correctly ([595c99c](https://github.com/vern-so/sdk-typescript/commit/595c99c009792ec610942671fada7d1c88844d0c))
+
+
+### Chores
+
+* adjust eslint.config.mjs ignore pattern ([2dfd4d5](https://github.com/vern-so/sdk-typescript/commit/2dfd4d50e1f4551d81cf9cbfcf35d8743fdd6e15))
+* avoid type error in certain environments ([d0cea58](https://github.com/vern-so/sdk-typescript/commit/d0cea58a7560e575af3e5f1c868d93883ca446c2))
+* **docs:** use top-level-await in example snippets ([58d7494](https://github.com/vern-so/sdk-typescript/commit/58d74944604939491894b5614cb6feb3df91cbc1))
+* **internal:** add pure annotations, make base APIResource abstract ([0cd6772](https://github.com/vern-so/sdk-typescript/commit/0cd677213ba37bfe0d8c58d58290fb8fa6e26a52))
+* **internal:** fix readablestream types in node 20 ([3c86238](https://github.com/vern-so/sdk-typescript/commit/3c86238f737c5b26fdc3dba1ac7a23f1c9091547))
+
 ## 2.2.0 (2025-05-31)
 
 Full Changelog: [v2.1.1...v2.2.0](https://github.com/vern-so/sdk-typescript/compare/v2.1.1...v2.2.0)
