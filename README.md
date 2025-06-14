@@ -26,13 +26,9 @@ const client = new Vern({
   apiKey: process.env['VERN_SDK_API_KEY'], // This is the default and can be omitted
 });
 
-async function main() {
-  const run = await client.runs.create({ taskId: 'task_123456' });
+const run = await client.runs.create({ taskId: 'task_123456' });
 
-  console.log(run.id);
-}
-
-main();
+console.log(run.id);
 ```
 
 ### Request & Response types
@@ -47,12 +43,8 @@ const client = new Vern({
   apiKey: process.env['VERN_SDK_API_KEY'], // This is the default and can be omitted
 });
 
-async function main() {
-  const params: Vern.RunCreateParams = { taskId: 'task_123456' };
-  const run: Vern.RunCreateResponse = await client.runs.create(params);
-}
-
-main();
+const params: Vern.RunCreateParams = { taskId: 'task_123456' };
+const run: Vern.RunCreateResponse = await client.runs.create(params);
 ```
 
 Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
@@ -65,19 +57,15 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-async function main() {
-  const run = await client.runs.create({ taskId: 'task_123456' }).catch(async (err) => {
-    if (err instanceof Vern.APIError) {
-      console.log(err.status); // 400
-      console.log(err.name); // BadRequestError
-      console.log(err.headers); // {server: 'nginx', ...}
-    } else {
-      throw err;
-    }
-  });
-}
-
-main();
+const run = await client.runs.create({ taskId: 'task_123456' }).catch(async (err) => {
+  if (err instanceof Vern.APIError) {
+    console.log(err.status); // 400
+    console.log(err.name); // BadRequestError
+    console.log(err.headers); // {server: 'nginx', ...}
+  } else {
+    throw err;
+  }
+});
 ```
 
 Error codes are as follows:
