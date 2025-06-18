@@ -1,6 +1,6 @@
 # Vern TypeScript API Library
 
-[![NPM version](https://img.shields.io/npm/v/vern.svg)](https://npmjs.org/package/vern) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vern)
+[![NPM version](<https://img.shields.io/npm/v/vern.svg?label=npm%20(stable)>)](https://npmjs.org/package/vern) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vern)
 
 This library provides convenient access to the Vern REST API from server-side TypeScript or JavaScript.
 
