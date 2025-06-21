@@ -1,5 +1,32 @@
 # Changelog
 
+## 2.3.0 (2025-06-21)
+
+Full Changelog: [v2.2.0...v2.3.0](https://github.com/vern-so/sdk-typescript/compare/v2.2.0...v2.3.0)
+
+### Features
+
+* **client:** add support for endpoint-specific base URLs ([7d16737](https://github.com/vern-so/sdk-typescript/commit/7d167370f9c8f816fbbe8ab76eec7909b3ea3f50))
+
+
+### Bug Fixes
+
+* **client:** explicitly copy fetch in withOptions ([ea79c8b](https://github.com/vern-so/sdk-typescript/commit/ea79c8b51d578c599f878e7b7210a9eb8a559347))
+* publish script — handle NPM errors correctly ([595c99c](https://github.com/vern-so/sdk-typescript/commit/595c99c009792ec610942671fada7d1c88844d0c))
+
+
+### Chores
+
+* adjust eslint.config.mjs ignore pattern ([2dfd4d5](https://github.com/vern-so/sdk-typescript/commit/2dfd4d50e1f4551d81cf9cbfcf35d8743fdd6e15))
+* avoid type error in certain environments ([d0cea58](https://github.com/vern-so/sdk-typescript/commit/d0cea58a7560e575af3e5f1c868d93883ca446c2))
+* **ci:** enable for pull requests ([a894f5e](https://github.com/vern-so/sdk-typescript/commit/a894f5e5b2604d303a8c7a1c57b0ead3d311e8fe))
+* **client:** refactor imports ([743507c](https://github.com/vern-so/sdk-typescript/commit/743507c04e108b017675975ea6c0c56bb2088194))
+* **docs:** use top-level-await in example snippets ([58d7494](https://github.com/vern-so/sdk-typescript/commit/58d74944604939491894b5614cb6feb3df91cbc1))
+* **internal:** add pure annotations, make base APIResource abstract ([0cd6772](https://github.com/vern-so/sdk-typescript/commit/0cd677213ba37bfe0d8c58d58290fb8fa6e26a52))
+* **internal:** fix readablestream types in node 20 ([3c86238](https://github.com/vern-so/sdk-typescript/commit/3c86238f737c5b26fdc3dba1ac7a23f1c9091547))
+* **readme:** update badges ([9080f3a](https://github.com/vern-so/sdk-typescript/commit/9080f3a2df4320940b9fb9da3473cbd39a95fd7b))
+* **readme:** use better example snippet for undocumented params ([b1bebec](https://github.com/vern-so/sdk-typescript/commit/b1bebecc29a5a551d6aa3c53c6a80f35973f3e51))
+
 ## 2.2.0 (2025-05-31)
 
 Full Changelog: [v2.1.1...v2.2.0](https://github.com/vern-so/sdk-typescript/compare/v2.1.1...v2.2.0)
