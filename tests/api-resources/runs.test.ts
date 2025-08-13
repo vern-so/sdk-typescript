@@ -8,7 +8,7 @@ const client = new Vern({
 });
 
 describe('resource runs', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: only required params', async () => {
     const responsePromise = client.runs.create({ taskId: 'task_123456' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource runs', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: required and optional params', async () => {
     const response = await client.runs.create({
       taskId: 'task_123456',
@@ -30,7 +30,7 @@ describe('resource runs', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('retrieve', async () => {
     const responsePromise = client.runs.retrieve('id');
     const rawResponse = await responsePromise.asResponse();
