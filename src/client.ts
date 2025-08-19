@@ -716,7 +716,9 @@ export class Vern {
 
   runs: API.Runs = new API.Runs(this);
 }
+
 Vern.Runs = Runs;
+
 export declare namespace Vern {
   export type RequestOptions = Opts.RequestOptions;
 
