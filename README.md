@@ -141,7 +141,9 @@ const response = await client.runs.create({ taskId: 'task_123456' }).asResponse(
 console.log(response.headers.get('X-My-Header'));
 console.log(response.statusText); // access the underlying Response object
 
-const { data: run, response: raw } = await client.runs.create({ taskId: 'task_123456' }).withResponse();
+const { data: run, response: raw } = await client.runs
+  .create({ taskId: 'task_123456' })
+  .withResponse();
 console.log(raw.headers.get('X-My-Header'));
 console.log(run.id);
 ```
