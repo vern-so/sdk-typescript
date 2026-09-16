@@ -1,7 +1,6 @@
 // @ts-check
 import tseslint from 'typescript-eslint';
 import unusedImports from 'eslint-plugin-unused-imports';
-import prettier from 'eslint-plugin-prettier';
 
 export default tseslint.config(
   {
@@ -10,15 +9,13 @@ export default tseslint.config(
       parserOptions: { sourceType: 'module' },
     },
     files: ['**/*.ts', '**/*.mts', '**/*.cts', '**/*.js', '**/*.mjs', '**/*.cjs'],
-    ignores: ['dist/**'],
+    ignores: ['dist/'],
     plugins: {
       '@typescript-eslint': tseslint.plugin,
       'unused-imports': unusedImports,
-      prettier,
     },
     rules: {
       'no-unused-vars': 'off',
-      'prettier/prettier': 'error',
       'unused-imports/no-unused-imports': 'error',
       'no-restricted-imports': [
         'error',

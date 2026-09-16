@@ -42,7 +42,7 @@ export interface RunCreateResponse {
   /**
    * The inputs provided for the task
    */
-  inputs?: Record<string, unknown>;
+  inputs?: { [key: string]: unknown };
 
   /**
    * Timestamp when the run was queued
@@ -69,12 +69,12 @@ export interface RunRetrieveResponse {
   /**
    * The inputs provided for the task
    */
-  inputs?: Record<string, unknown>;
+  inputs?: { [key: string]: unknown };
 
   /**
    * The response data from the task execution
    */
-  response?: Record<string, unknown>;
+  response?: { [key: string]: unknown };
 
   /**
    * Timestamp when the run started executing
@@ -101,7 +101,7 @@ export interface RunCreateParams {
   /**
    * The inputs required for the task
    */
-  inputs?: Record<string, unknown>;
+  inputs?: { [key: string]: unknown };
 
   /**
    * Optional user-specified UID for a profile linked via magic link

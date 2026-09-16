@@ -1,7 +1,6 @@
 import fs from 'fs';
 import type { ResponseLike } from 'vern/internal/to-file';
 import { toFile } from 'vern/core/uploads';
-import { File } from 'node:buffer';
 
 class MyClass {
   name: string = 'foo';

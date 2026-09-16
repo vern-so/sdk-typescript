@@ -7,10 +7,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "baseUrl": "./",
     "paths": {
-      "vern/*": ["src/*"],
-      "vern": ["src/index.ts"]
+      "vern/*": ["./src/*"],
+      "vern": ["./src/index.ts"]
     },
     "noEmit": true,
 
